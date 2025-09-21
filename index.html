@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 5 - Styling Components</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="#" class="active">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Cards Section -->
+  <section>
+    <h2>Cards</h2>
+    <div class="card">
+      <img src="black-golden-royal-card-logo-design-line-style_171487-2305.jpg" height="120"/>
+      <div class="card-content">
+        <h3>Card Title</h3>
+        <p>This is a card with shadow, rounded corners, and hover effects.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Buttons Section -->
+  <section>
+    <h2>Buttons</h2>
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-warning">Warning</button>
+    <button class="btn btn-info">Info</button>
+    <button class="btn btn-outline">Outline</button>
+    <button class="btn" disabled>Disabled</button>
+  </section>
+
+  <!-- Chips Section -->
+  <section>
+    <h2>Chips</h2>
+    <div class="chip">Default</div>
+    <div class="chip active">Active</div>
+    <div class="chip">With Icon <span class="close">&times;</span></div>
+  </section>
+
+  <!-- Forms Section -->
+  <section>
+    <h2>Forms</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email">
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" placeholder="Type your message"></textarea>
+
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+  </section>
+
+</body>
+</html>
